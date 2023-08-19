@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My- Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="navbar-container">
+      <div class="myname">Vikas Rawat</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="contracted-nav">
+      <div class="myname">Vikas Rawat</div>
+      <div class="contracted-menu">
+        <div class="contracted-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section-pic-container">
+        <img src="./assests/DSC_0147.JPG" alt="profile-img"/ class="myimg">
+      </div>
+      <div class="section-text">
+        <p class="section-text-p1">Hello, I am</p>
+        <h2 class="section-text-name">Vikas Rawat</h2>
+        <p class="section-text-p2">Front-end Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-resume" onclick="window.open('./assests/')">
+            Download CV
+          </button>
+          <button class="btn btn-contact" onclick="location.href='./assests/'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./assests/linked-in.avif"
+            alt="linked-in"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vikas-rawat-5575ab282/'"
+          />
+          <img
+            src="./assests/gmail-img.webp"
+            alt="gmail"
+            class="icon"
+            onclick="location.href='https://mail.google.com/mail/u/0/#inbox'"
+          />
+          <img
+            src="./assests/git-img.png"
+            alt="git-hub"
+            class="icon"
+            onclick="location.href='https://github.com/vikasRawt'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section-text-p1">Get To Know More</p>
+      <p class="section-text-name">About Me</p>
+      <div class="section-container">
+        <div class="section-pic-container-about">
+          <img src="./assests/DSC_0123.JPG" alt="about-me" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container">
+              <img
+                src="./assests/batch-icon.jpg"
+                alt="icon-here"
+                class="icon"
+              />
+              <h2>Education</h2>
+              <p>
+                <b>Diploma</b><br />2017-20 <br />Branch-Computer Science and
+                Engineering
+              </p>
+              <p>
+                <b>Degree</b><br />2020-23 <br />Branch- Computer Science and
+                Engineering
+              </p>
+            </div>
+            <div class="details-container text-decoration">
+              <img
+                src="./assests/volleyball-icon.png"
+                alt="icon-volley-here"
+                class="icon"
+              />
+              <h2>Other</h2>
+              <p>
+                Lorem is omnis laudantium id eligendi similique necessitatibus
+                ea enim quidem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/downarrow.jpg"
+        alt="down-arrow"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section-text-p1">Explored</p>
+      <h1 class="section-text-name">Skills and Technologies</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="experience-subtitle">Front-end Developement</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <br />
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <br />
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>Javascript</h3>
+                  <br />
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>ReactJs</h3>
+                  <br />
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-subtitle">Backend Developement</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>Express</h3>
+                  <br />
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>NodeJs</h3>
+                  <br />
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>My-Sql</h3>
+                  <br />
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assests/chec2.jpg" alt="skill-img" class="icon" />
+                <div>
+                  <h3>MongoDB</h3>
+                  <br />
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/downarrow.jpg"
+        alt="down-arrow"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <section class="projects">
+      <p class="section-text-p1">Browse my recent</p>
+      <h1 class="section-text-name">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="color-container details-container">
+            <div class="article-container">
+              <img
+                src="./assests/Screenshot (109).png"
+                alt=""
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-subtitle project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vikasRawt/Frontreact'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/Screenshot (109).png"
+                alt=""
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-subtitle project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vikasRawt/Frontreact'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/downarrow.jpg"
+        alt="down-arrow"
+        class="icon arrow"
+        onclick="location.href='./#project'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section-text-p1">Get In Touch</p>
+      <h1 class="section-text-name">Contact Me</h1>
+      <div class="contact-info-upper-container">
+       <div class="contact-info-container">
+        <img src="./assests/gmail-img.webp" alt="gmail" class="icon contact-icon"/>
+        <p><a href="mailto:vicky582050@gmail.com">Examplevicky@gmail.com</a></p>
+       </div>
+       <div class="contact-info-container">
+        <img src="./assests/linked-in.avif" alt="linked-in" class="icon linkicon contact-icon"/>
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+       </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p> copyright &#169; 2023 Vikas Rawat</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

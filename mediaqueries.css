@@ -1,0 +1,9 @@
+@media screen and (max-width : 1200px) {
+    #navbar-container{
+display: none;
+    }
+
+    #contracted-nav{
+        display: flex;
+    }
+}
