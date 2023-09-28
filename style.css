@@ -13,6 +13,7 @@
 
 body{
     font-family: 'Playfair Display', serif;
+    background-color: rgb(251, 250, 252);
 }
 
 html{
@@ -28,6 +29,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    background-color: rgb(15, 16, 15);
+    color: white;
 }
 
 .nav-links{
@@ -47,7 +50,7 @@ nav{
 a{
     text-decoration: none;
     text-decoration-color: white;
-    color: black;
+    color: white;
 }
 
 a:hover{
@@ -157,6 +160,7 @@ section{
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    flex-direction: row;
 }
 
 .section-pic-container{
@@ -199,6 +203,11 @@ gap: 1rem;
     cursor: pointer;
     height: 2rem;
     border-radius: 30%;
+    transition: all 0.4s;
+}
+
+.icon:hover{
+    transform: scale(1.4);
 }
 
 /*buttons*/
@@ -292,6 +301,11 @@ margin-top: 2rem;
 
 .myimg{
     border-radius: 10%;
+    transition: all ease 0.5s;
+}
+
+.myimg:hover{
+    transform: scale(1.4);
 }
 
 /* EXPERIENCE SECTION */
@@ -358,6 +372,10 @@ article .icon{
     border-color: rgb(193, 192, 192);
 }
 
+.project-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
 /* CONTACT */
 
 #contact{
@@ -406,4 +424,8 @@ footer{
 
 footer p{
 text-align: center;
+}
+
+.footmail{
+    color: black;
 }
